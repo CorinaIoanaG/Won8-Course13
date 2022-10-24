@@ -18,9 +18,9 @@ public class Main {
             System.out.println(quote.getId() + " " + quote.getQuote());
         }
         System.out.println("Authors: " + quoteService.getAuthors());
-        quoteService.setFavourite(33);
-        quoteService.setFavourite(170);
-        quoteService.setFavourite(5300);
+        quoteService.setFavourite(39);
+        quoteService.setFavourite(199);
+        quoteService.setFavourite(3333);
         quotes = quoteService.getFavourites();
         System.out.println("Favourites quotes: ");
         for (Quote quote : quotes) {
