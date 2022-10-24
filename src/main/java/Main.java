@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Authors: " + quoteService.getAuthors());
         quoteService.setFavourite(33);
         quoteService.setFavourite(170);
-        quoteService.setFavourite(4335);
+        quoteService.setFavourite(5300);
         quotes = quoteService.getFavourites();
         System.out.println("Favourites quotes: ");
         for (Quote quote : quotes) {
